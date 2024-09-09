@@ -1,0 +1,92 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #FAF6F0;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498DB; /* Accent Light Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #3498DB; /* Light Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
